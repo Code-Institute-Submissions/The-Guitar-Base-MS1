@@ -37,6 +37,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     
+    
     z-index: -10;
 
     display: flex;
@@ -75,7 +76,7 @@ img {
     position: relative;
 
     z-index: 1;
-    background-attachment: scroll;
+  
     box-shadow: 0px 5px 8px #000, -0px -5px -8px #000;
 }
 
@@ -97,4 +98,8 @@ img {
     justify-content: center;
 
     position: relative;
+}
+
+.info3-conatiner {
+    max-height: 360px;
 }
