@@ -1,4 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
 
 /*--------------------------------------colours----*/
+
+
+/*--------------------------------------navbar from bootstrap----*/
+
+.navbar-container {
+    width: 100%;
+}
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+/*--------------------------------------Header Container----*/
+
+.header-container {
+    min-height: 500px;
+
+    background: url('../images/header-guitarist.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: -10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.head-text {
+    padding: 125px 0;
+    margin: auto;
+    width: 80%;
+    
+    
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+/*-------------------------------------Info Container----*/
+
+.info-container {
+    min-height: 360px;
+    box-shadow: 0px 3px 8px #000, -0px -3px -8px #000;
+}
+
+img {
+    min-height: 360px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    z-index: 1;
+    background-attachment: scroll;
+    box-shadow: 0px 5px 8px #000, -0px -5px -8px #000;
+}
+
+/*-------------------------------------Info2 Container----*/
+
+.info2-container {
+    min-height: 500px;
+
+    background: url('../images/info2-guitarist.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: -10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
