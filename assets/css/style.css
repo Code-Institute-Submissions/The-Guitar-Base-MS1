@@ -36,10 +36,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.8;
     
-    
-    z-index: -10;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,14 +46,26 @@ body {
 }
 
 .head-text {
-    padding: 125px 0;
+    font-family: 'Exo', sans-serif;
+    font-size: 450%;
+    color: rgb(239, 241, 210);
+    padding: 40px 0;
+    top: 5px;
     margin: auto;
-    width: 80%;
-    
-    
+    width: 100%;
+    text-shadow: 3px 3px 8px #000;
+       
+}
+
+.para-text {
+    font-family: 'Exo', sans-serif;
+    font-size: 200%;
+    color: rgb(239, 241, 210); 
+    text-shadow: 3px 3px 8px #000;
 }
 
 .jumbotron {
+    padding: 0;
     background-color: transparent;
 }
 
@@ -63,21 +73,18 @@ body {
 
 .info-container {
     min-height: 360px;
-    box-shadow: 0px 3px 8px #000, -0px -3px -8px #000;
+    
 }
 
 img {
-    min-height: 360px;
-    max-width: 100%;
+    height: 500px;
+    width: 100%;
+    opacity: 0.9;
+    object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    position: relative;
-
-    z-index: 1;
-  
-    box-shadow: 0px 5px 8px #000, -0px -5px -8px #000;
+    box-shadow: px 3px 8px #000, -0px -3px -8px rgb(255, 255, 255);
 }
 
 /*-------------------------------------Info2 Container----*/
@@ -90,8 +97,8 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.8;
     
-    z-index: -10;
 
     display: flex;
     align-items: center;
@@ -100,6 +107,36 @@ img {
     position: relative;
 }
 
+/*-------------------------------------Info3 Container----*/
+
 .info3-conatiner {
     max-height: 360px;
+    box-shadow: 0px 5px 8px #000,
+}
+
+/*-------------------------------------Info4 Container----*/
+
+.info4-container {
+    min-height: 500px;
+
+    background: url('../images/info4-guitarist.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/*-------------------------------------Info5 Container----*/
+
+.info5-conatiner {
+    max-height: 360px;
+    box-shadow: 0px 5px 8px #000;
 }
