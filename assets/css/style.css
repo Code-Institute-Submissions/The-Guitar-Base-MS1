@@ -263,7 +263,7 @@ img {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
     .header-container, .info4-container, .info2-container  {
         background-attachment: scroll;
 
