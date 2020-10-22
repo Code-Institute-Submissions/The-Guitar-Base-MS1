@@ -24,7 +24,9 @@ body {
 
 /*--------------------------------------navbar from bootstrap----*/
  
-
+.navbar-custom {
+    background-color: rgb(39, 38, 38);
+}
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-item.active .nav-link,
@@ -215,7 +217,7 @@ img {
 /*-------------------------------------Info5 Container----*/
 
 .info5-conatiner {
-    max-height: 360px;
+    min-height: 360px;
     box-shadow: 0px 5px 8px #000;
     position: relative;
 }
@@ -245,6 +247,89 @@ img {
     text-shadow: 3px 3px 8px #000;   
 }
 
+/*-------------------------------------About page----*/
+
+.bg-about-container {
+    min-height: 1000px;
+    max-width: 100%;
+    background: url('../images/about-guitarist.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.about-text {
+    font-family: 'Exo', sans-serif;
+    color: rgb(239, 241, 210);
+    text-shadow: 3px 3px 8px #000; 
+    padding-top: 50px;
+      
+}
+
+.about-header {
+    font-size: 450%;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.about-para {
+    font-size: 150%;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.bg-about3-container {
+    min-height: 500px;
+    max-width: 100%;
+    background: url('../images/about3-guitarist.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.about3-text {
+    font-family: 'Exo', sans-serif;
+    color: rgb(239, 241, 210);
+    text-shadow: 3px 3px 8px #000; 
+    
+    text-align: center;
+    padding-top: 20px;
+      
+}
+
+.about3-header {
+    height: 450px;
+    font-size: 300%;
+    width: 80%;
+    margin: auto;      
+}
+
+.about4-container {
+    min-height: 500px;
+    box-shadow: 0px 5px 8px #000, -0px -5px -8px #000;
+    position: relative;
+}
+
 /*-------------------------------------media----*/
 
 @media (max-width: 786px) {
@@ -264,7 +349,8 @@ img {
 }
 
 @media (max-width: 1024px) {
-    .header-container, .info4-container, .info2-container  {
+    .header-container, .info4-container, .info2-container,
+    .bg-about-container  {
         background-attachment: scroll;
 
     }
