@@ -135,7 +135,7 @@ img {
 
 .info2-container {
     min-height: 500px;
-
+    max-width: 100%;
     background: url('../images/info2-guitarist.jpg')no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -192,7 +192,7 @@ img {
 
 .info4-container {
     min-height: 500px;
-
+    max-width: 100%;
     background: url('../images/info4-guitarist.jpg')no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
