@@ -141,6 +141,9 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     opacity: 0.8;
     display: flex;
      align-content: center;
@@ -259,7 +262,7 @@ img {
     }
 }
 
-@supports (-webkit-overflow-scrolling: touch) {
+@media (max-width: 786px) {
     .header-container {
         background-attachment: scroll;
     }
