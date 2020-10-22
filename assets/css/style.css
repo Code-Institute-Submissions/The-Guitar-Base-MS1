@@ -73,6 +73,7 @@ body {
     font-size: 200%;
     color: rgb(239, 241, 210); 
     text-shadow: 3px 3px 8px #000;
+    
 }
 
 .jumbotron {
@@ -85,6 +86,7 @@ body {
 
 .info-container {
     min-height: 360px;
+    position: relative;
     
 }
 
@@ -97,6 +99,36 @@ img {
     align-items: center;
     justify-content: center;
     box-shadow: px 3px 8px #000, -0px -3px -8px rgb(255, 255, 255);
+}
+
+.info-text {
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    text-shadow: 3px 3px 8px #000;
+}
+
+.book-text {
+    font-size: 300%;
+    font-family: 'Exo', sans-serif;
+    padding:20px 0 40px 0;
+    
+}
+
+.info-container .info-text {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: rgb(239, 241, 210);;
+    width: 40%; 
+    height: 50%;
+    padding: 20px;
+    
 }
 
 /*-------------------------------------Info2 Container----*/
@@ -135,6 +167,7 @@ img {
     margin: auto;
     color: rgb(239, 241, 210); 
     text-shadow: 3px 3px 8px #000;
+    padding-bottom: 35px;
 }
 
 /*-------------------------------------Info3 Container----*/
@@ -206,4 +239,22 @@ img {
     margin: 0;
     
     text-shadow: 3px 3px 8px #000;   
+}
+
+/*-------------------------------------media----*/
+
+@media (max-width: 786px) {
+    .info-container .info-text {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .info-container .info-text {
+        width: 90%;
+        font-size: 80%;
+    }
+    .book-text {
+        padding-bottom: 20px;
+    }
 }
