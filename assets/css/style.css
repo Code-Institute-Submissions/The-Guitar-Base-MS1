@@ -3,7 +3,10 @@
 
 html, body {width:100%; overflow-x:hidden;}
 
-
+html {
+    height: 100vh; 
+    min-height: 100%; 
+}
 
 body {
     
@@ -259,8 +262,9 @@ img {
     }
 }
 
-@media (max-width: 786px) {
+@media (max-width: @iphone-screen) {
     .header-container, .info4-container, .info2-container  {
         background-attachment: scroll;
+
     }
 }
