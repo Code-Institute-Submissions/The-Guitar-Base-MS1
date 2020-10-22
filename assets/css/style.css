@@ -42,10 +42,10 @@ body {
 .header-container {
     min-height: 500px;
     max-width: 100%;
-    background: url('../images/header-guitarist.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('../images/header-guitarist.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     opacity: 0.8;
     
@@ -115,7 +115,7 @@ img {
 .book-text {
     font-size: 300%;
     font-family: 'Exo', sans-serif;
-    padding:20px 0 40px 0;
+    padding:20px 0 20px 0;
     
 }
 
@@ -136,14 +136,11 @@ img {
 .info2-container {
     min-height: 500px;
 
-    background: url('../images/info2-guitarist.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -moz-background-size: cover;
+    background: url('../images/info2-guitarist.jpg')no-repeat center center fixed; 
     -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     opacity: 0.8;
     display: flex;
      align-content: center;
@@ -196,10 +193,10 @@ img {
 .info4-container {
     min-height: 500px;
 
-    background: url('../images/info4-guitarist.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('../images/info4-guitarist.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     opacity: 0.8;
     
@@ -263,7 +260,7 @@ img {
 }
 
 @media (max-width: 786px) {
-    .header-container {
+    .header-container, .info4-container, .info2-container  {
         background-attachment: scroll;
     }
 }
