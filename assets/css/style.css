@@ -23,7 +23,9 @@ body {
 
 /*--------------------------------------navbar from bootstrap----*/
  
- 
+.navbar-custom {
+    background-color: rgb(39, 38, 38);
+} 
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-item.active .nav-link,
@@ -223,7 +225,7 @@ img {
 
 .footer-container {
     min-height: 120px;
-    background-color: rgb(58, 51, 51);
+    background-color: rgb(39, 38, 38);
     position: relative;
     
 }
