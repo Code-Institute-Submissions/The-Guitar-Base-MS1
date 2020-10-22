@@ -250,7 +250,7 @@ img {
 /*-------------------------------------About page----*/
 
 .bg-about-container {
-    min-height: 1000px;
+    min-height: 720px;
     max-width: 100%;
     background: url('../images/about-guitarist.jpg')no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -346,11 +346,14 @@ img {
     .book-text {
         padding-bottom: 20px;
     }
+    .about-para {
+        width: 90%;
+    }
 }
 
 @media (max-width: 1024px) {
     .header-container, .info4-container, .info2-container,
-    .bg-about-container, .bg3-about-container {
+    .bg-about-container, .bg-about3-container {
         background-attachment: scroll;
 
     }
