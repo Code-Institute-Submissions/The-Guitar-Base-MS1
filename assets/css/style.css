@@ -484,7 +484,8 @@ img {
 /*-------------------------------------media----*/
 
 @media (max-width: 786px) {
-    .info-container .info-text {
+    .info-container .info-text,
+    .info-container2 .info-text2 {
         width: 70%;
     }
     .bg-faded {
@@ -493,7 +494,8 @@ img {
 }
 
 @media (max-width: 600px) {
-    .info-container .info-text {
+    .info-container .info-text,
+    .info-container2 .info-text2 {
         width: 90%;
         font-size: 80%;
     }
