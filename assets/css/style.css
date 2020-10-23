@@ -80,7 +80,7 @@ body {
 }
 
 .jumbotron {
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
     background-color: transparent;
 }
@@ -166,7 +166,7 @@ img {
 .para2-text {
     font-family: 'Exo', sans-serif;
     font-size: 120%;
-    width: 70%;
+    width: 50%;
     margin: auto;
     color: rgb(239, 241, 210); 
     text-shadow: 3px 3px 8px #000;
@@ -186,7 +186,7 @@ img {
     color: rgb(239, 241, 210);
     padding: 10px 0 20px 0;
     
-    margin: auto;
+    margin:0 auto;
     width: 100%;
     text-shadow: 3px 3px 8px #000;
 }
@@ -485,7 +485,7 @@ img {
 
 @media (max-width: 786px) {
     .info-container .info-text,
-    .info-container2 .info-text2 {
+    .info-container2 .info-text2, .para2-text {
         width: 70%;
     }
     .bg-faded {
@@ -502,7 +502,7 @@ img {
     .book-text {
         padding-bottom: 20px;
     }
-    .about-para {
+    .about-para, .para2-text {
         width: 90%;
     }
 }
@@ -513,5 +513,14 @@ img {
     .bg-lessons2-container, .bg-lessons3-container, .bg-lessons4-container  {
         background-attachment: scroll;
 
+    }
+
+}   
+
+@media (min-width: 1024px) {
+    img, .header-container, .info4-container, .info2-container,
+    .bg-about-container, .bg-about3-container, .bg-lessons-container,
+    .bg-lessons2-container, .bg-lessons3-container, .bg-lessons4-container {
+        height: 720px;
     }
 }
