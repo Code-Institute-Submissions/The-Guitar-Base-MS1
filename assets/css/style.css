@@ -19,9 +19,6 @@ body {
     padding: 0;
 }
 
-/*--------------------------------------colours----*/
-
-
 /*--------------------------------------navbar from bootstrap----*/
  
 .navbar-custom {
@@ -330,11 +327,145 @@ img {
     position: relative;
 }
 
+
+
+/*-------------------------------------Lessons Page----*/
+
+.bg-lessons-container {
+        min-height: 720px;
+    max-width: 100%;
+    background: url('../images/lessons-guitarist.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.book-now {
+    font-family: 'Exo', sans-serif;
+    color: rgb(239, 241, 210);
+    text-shadow: 3px 3px 8px #000; 
+    padding-top: 20px;
+}
+
+.contact-header {
+    padding-bottom: 30px;
+    font-size: 300%;
+    width: 80%;
+    margin: auto;   
+}
+
+.name-labels {
+    padding-top: 10px;
+}
+
+.bg-faded {
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: rgb(239, 241, 210);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.name-display { 
+    display: block;
+}
+
+.book-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.acoustc-container {
+    min-height: 360px;
+    position: relative;
+}
+
+.bg-lessons2-container {
+    min-height: 500px;
+    max-width: 100%;
+    background: url('../images/lessons1-bg-guitarist.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.electric-container {
+    min-height: 360px;
+    position: relative;
+}
+
+.bg-lessons3-container {
+    min-height: 500px;
+    max-width: 100%;
+    background: url('../images/lessons2-bg-guitarist.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.bass-container {
+    min-height: 360px;
+    position: relative;
+}
+
+.bg-lessons4-container {
+    min-height: 500px;
+    max-width: 100%;
+    background: url('../images/lessons3-bg-guitarist.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 /*-------------------------------------media----*/
 
 @media (max-width: 786px) {
     .info-container .info-text {
         width: 70%;
+    }
+    .bg-faded {
+        width: 350px;
     }
 }
 
@@ -353,7 +484,8 @@ img {
 
 @media (max-width: 1024px) {
     .header-container, .info4-container, .info2-container,
-    .bg-about-container, .bg-about3-container {
+    .bg-about-container, .bg-about3-container, .bg-lessons-container,
+    .bg-lessons2-container, .bg-lessons3-container, .bg-lessons4-container  {
         background-attachment: scroll;
 
     }
