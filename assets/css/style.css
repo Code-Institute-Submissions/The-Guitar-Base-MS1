@@ -19,6 +19,10 @@ body {
     padding: 0;
 }
 
+h1, h2 {
+    text-transform: capitalize;
+}
+
 /*--------------------------------------navbar from bootstrap----*/
  
 .navbar-custom {
@@ -28,7 +32,7 @@ body {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .navbar-nav .nav-link  {
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
     }
 
 
@@ -70,7 +74,7 @@ body {
     padding-top: 70px;
     padding-bottom: 30px;
     text-shadow: 2px 2px 5px;
-    opacity: 0.4;
+    opacity: 0.8;
     -webkit-animation-name: spinner;
     -webkit-animation-timing-function: ease;
     -webkit-animation-iteration-count: infinite;
@@ -98,14 +102,14 @@ body {
     letter-spacing: 2px;
     width: 100%;
     text-shadow: 3px 3px 8px #000;
-    color: rgb(239, 241, 210);   
+    color: rgb(241, 241, 230);   
 }
 
 
 .para-text {
     font-family: 'Turret Road', sans-serif;
     font-size: 300%;
-     color: rgb(239, 241, 210);
+     color: rgb(241, 241, 230);
     text-shadow: 3px 3px 8px #000;
     margin-bottom: 30px;
     margin: 0 auto 30px auto;
@@ -145,14 +149,14 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin: auto;
+    margin: auto 30px;
     text-shadow: 3px 3px 8px #000;
 }
 
 .book-text {
     font-size: 300%;
     font-family: 'Turret Road', sans-serif;
-    padding:20px 0 20px 0;
+    padding:20px 0 50px 0;
     
 }
 
@@ -161,8 +165,8 @@ body {
     bottom: 0; 
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
-    color: rgb(239, 241, 210);;
-    width: 40%; 
+    color: rgb(241, 241, 230);
+    width: 50%; 
     height: 50%;
     padding: 0 30px;
     
@@ -190,7 +194,7 @@ body {
 .info2-text {
     font-family: 'Turret Road', sans-serif;
     font-size: 400%;
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
     
     left: 50%;
     margin:80px auto;
@@ -202,7 +206,7 @@ body {
     font-size: 150%;
     width: 60%;
     margin: auto;
-    color: rgb(239, 241, 210); 
+    color: rgb(241, 241, 230); 
     text-shadow: 3px 3px 8px #000;
     padding-bottom: 35px;
 }
@@ -238,7 +242,7 @@ body {
 .info4-text {
     font-family: 'Turret Road', sans-serif;
     font-size: 400%;
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
     
     
     margin:80px auto;
@@ -274,7 +278,7 @@ body {
 .footer-text {
    font-family: 'Turret Road', sans-serif;
     font-size: 150%;
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
     margin:10px auto 0 auto;
     
     text-shadow: 3px 3px 8px #000;   
@@ -284,7 +288,7 @@ body {
     font-size: 200%;
     padding: 10px 0;
     margin: 0 auto;
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
     text-shadow: 3px 3px 8px #000;
     -webkit-animation-name: spinner;
     -webkit-animation-timing-function: ease;
@@ -303,7 +307,7 @@ body {
 }
 
 .social-links i {
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
     margin: auto 20px 0 20px;
 }
 
@@ -329,7 +333,7 @@ body {
 
 .about-text {
     font-family: 'Turret Road', sans-serif;
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
      
     padding-top: 50px;
       
@@ -371,7 +375,7 @@ body {
 
 .about3-text {
     font-family: 'Turret Road', sans-serif;
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
      
     
     text-align: center;
@@ -439,7 +443,7 @@ body {
 
 .book-now {
     font-family: 'Turret Road', sans-serif;
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
     text-shadow: 3px 3px 8px #000; 
     padding-top: 20px;
 }
@@ -458,7 +462,7 @@ body {
 .bg-faded {
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.6); 
-    color: rgb(239, 241, 210);
+    color: rgb(241, 241, 230);
     width: 600px;
     height: 400px;
     margin: auto;
@@ -482,6 +486,17 @@ body {
     position: relative;
 }
 
+.acoustc-container .guitar-styles {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: rgb(241, 241, 230);
+    width: 100%; 
+    height: 30%;
+    padding: 0 30px;
+}
+
 .bg-lessons2-container {
     min-height: 500px;
     max-width: 100%;
@@ -501,8 +516,21 @@ body {
 }
 
 .electric-container {
+    padding: 0;
+    margin: 0;
     min-height: 360px;
     position: relative;
+}
+
+.electric-container .guitar-styles {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: rgb(241, 241, 230);
+    width: 100%; 
+    height: 30%;
+    padding: 0 30px;
 }
 
 .bg-lessons3-container {
@@ -528,6 +556,61 @@ body {
     position: relative;
 }
 
+.bass-container .guitar-styles {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: rgb(241, 241, 230);
+    width: 100%; 
+    height: 30%;
+    padding: 0 30px;
+}
+
+.guitar-styles {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    
+    
+}
+
+.guitar-style-type ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.guitar-style-type li {
+    text-align: center;
+    display: inline;
+    font-family: 'Turret Road', sans-serif;
+    font-size: 250%;
+    padding:0 10px 0 10px;
+    margin: 0 20px;
+    color: rgb(241, 241, 230);
+    border: solid 4px rgb(241, 241, 230);
+    border-radius: 25px;
+    text-shadow: 3px 3px 8px #000;
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 10s;
+
+    animation-name: spinner;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration:10s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
 .bg-lessons4-container {
     min-height: 500px;
     max-width: 100%;
@@ -551,7 +634,7 @@ body {
     bottom: 0; 
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.6); 
-    color: rgb(239, 241, 210);;
+    color: rgb(241, 241, 230);
     width: 40%; 
     height: 50%;
     padding: 20px;
