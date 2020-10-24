@@ -537,8 +537,7 @@ img {
 
 @media (max-width: 600px) {
     .info-container .info-text,
-    .info-container2 .info-text2,
-    .head-text, .para-text {
+    .info-container2 .info-text2 {
         width: 90%;
         font-size: 80%;
     }
@@ -551,12 +550,18 @@ img {
     .social-links, .footer-text {
         font-size: 130%;
     }
-    .info4-text, .info2-text {
+    .info4-text, .info2-text,
+    .para-text {
         font-size: 300%;
         width: 80%;
     }
+
+    .head-text {
+        width: 90%;
+        font-size: 400%;
+    }
     .video {
-        width: 80%;
+        width: 85%;
     }
 }
 
