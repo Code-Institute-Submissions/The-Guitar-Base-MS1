@@ -149,7 +149,7 @@ h1, h2 {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin: auto 30px;
+    margin: auto;
     text-shadow: 3px 3px 8px #000;
 }
 
@@ -588,7 +588,7 @@ h1, h2 {
     text-align: center;
     display: inline;
     font-family: 'Turret Road', sans-serif;
-    font-size: 250%;
+    font-size: 200%;
     padding:0 10px 0 10px;
     margin: 0 20px;
     color: rgb(241, 241, 230);
