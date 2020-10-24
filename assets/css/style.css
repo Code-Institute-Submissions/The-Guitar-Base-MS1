@@ -59,8 +59,38 @@ body {
     position: relative;
 }
 
+.bg-container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
 
+.logopic {
+    
+}
 
+.logo {
+    position: relative;
+    height: 800px;
+    width: 1000px;
+    margin:auto;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    opacity: 0.3;
+    z-index: 2;
+   
+}
+
+.logo2 {
+    position: relative;
+    height: 900px;
+    width: 1100px;
+    margin:auto;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    z-index: 3;
+   
+}
 .head-text {
     font-family: 'Turret Road', sans-serif;
     font-size: 600%;
@@ -103,7 +133,7 @@ body {
     
 }
 
-img {
+.pic1{
     height: 500px;
     width: 100%;
     opacity: 0.9;
@@ -585,7 +615,7 @@ img {
 }   
 
 @media (min-width: 1024px) {
-    img, .header-container, .info4-container, .info2-container,
+    .pic1, .header-container, .info4-container, .info2-container,
     .bg-about-container, .bg-about3-container, .bg-lessons-container,
     .bg-lessons2-container, .bg-lessons3-container, .bg-lessons4-container {
         min-height: 720px;
@@ -599,6 +629,13 @@ img {
 @media (min-width: 1200px) {
     .book-text {
         padding-top: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    iframe {
+        width: 400px;
+        height: 200px;
     }
 }
 
