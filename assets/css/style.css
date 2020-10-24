@@ -59,21 +59,16 @@ body {
     position: relative;
 }
 
-.bg-container {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
 
 
 
 .logo {
-    position: relative;
+    
     height: 800px;
-    width: 1000px;
+    width: 900px;
     margin:auto;
     padding-top: 70px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-shadow: 2px 2px 5px;
     opacity: 0.4;
     -webkit-animation-name: spinner;
@@ -590,6 +585,12 @@ body {
         height: 150px;
         width: 90%;;
     }
+    .logo {
+        position: relative;
+        height: 600px;
+        width: 600px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 600px) {
@@ -624,6 +625,13 @@ body {
     .about3-header {
         height: 150px;
         width: 90%;;
+    }
+
+    .logo {
+        position: relative;
+        height: 450px;
+        width: 500px;
+        margin: 0 auto;
     }
 }
 
