@@ -537,7 +537,8 @@ img {
 
 @media (max-width: 600px) {
     .info-container .info-text,
-    .info-container2 .info-text2 {
+    .info-container2 .info-text2,
+    .head-text, .para-text {
         width: 90%;
         font-size: 80%;
     }
