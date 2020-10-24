@@ -250,7 +250,7 @@ img {
    font-family: 'Turret Road', sans-serif;
     font-size: 150%;
     color: rgb(239, 241, 210);
-    margin:auto;
+    margin:10px auto 0 auto;
     
     text-shadow: 3px 3px 8px #000;   
 }
@@ -258,7 +258,7 @@ img {
 .social-links {
     font-size: 200%;
     padding: 10px 0;
-    margin: 0;
+    margin: 0 auto;
     color: rgb(239, 241, 210);
     text-shadow: 3px 3px 8px #000;
     -webkit-animation-name: spinner;
@@ -548,7 +548,7 @@ img {
         width: 90%;
     }
     .social-links, .footer-text {
-        font-size: 120%;
+        font-size: 130%;
     }
     .info4-text, .info2-text {
         font-size: 300%;
