@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne+Mono&family=Turret+Road:wght@400;500;700;800&display=swap');
 
 html {
     height: 100vh; 
@@ -60,30 +60,36 @@ body {
 }
 
 .head-text {
-    font-family: 'Syne Mono', sans-serif;
+    font-family: 'Turret Road', sans-serif;
     font-size: 600%;
-    color: rgb(239, 241, 210);
     padding: 120px 0 20px 0;
     letter-spacing: 2px;
-    
     width: 100%;
     text-shadow: 3px 3px 8px #000;
-    
     
        
 }
 
+.head-text, .para-text, .fas  {
+    background-image: linear-gradient(to top,rgb(228, 225, 225), rgb(239, 241, 210)) ;
+    
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 .para-text {
-    font-family: 'Syne Mono', sans-serif;
+    font-family: 'Turret Road', sans-serif;
     font-size: 300%;
-    color: rgb(239, 241, 210); 
+     
     text-shadow: 3px 3px 8px #000;
+    
 }
 
 i {
     font-size: 1500%;
     padding: 50px 0;
-    color: rgb(239, 241, 210);
+    
     text-shadow: 3px 3px 8px #000;
     -webkit-animation-name: spinner;
     -webkit-animation-timing-function: linear;
@@ -99,6 +105,7 @@ i {
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    
 }
 
 .jumbotron {
@@ -138,7 +145,7 @@ img {
 
 .book-text {
     font-size: 300%;
-    font-family: 'Syne Mono', sans-serif;
+    font-family: 'Turret Road', sans-serif;
     padding:20px 0 20px 0;
     
 }
@@ -175,7 +182,7 @@ img {
 }
 
 .info2-text {
-    font-family: 'Syne Mono', sans-serif;
+    font-family: 'Turret Road', sans-serif;
     font-size: 350%;
     color: rgb(239, 241, 210);
     padding: 80px 0 20px 0;
@@ -185,7 +192,7 @@ img {
     text-shadow: 3px 3px 8px #000;
 }
 .para2-text {
-    font-family: 'Syne Mono', sans-serif;
+    font-family: 'Turret Road', sans-serif;
     font-size: 120%;
     width: 50%;
     margin: auto;
@@ -223,7 +230,7 @@ img {
 }
 
 .info4-text {
-    font-family: 'Syne Mono', sans-serif;
+    font-family: 'Turret Road', sans-serif;
     font-size: 350%;
     color: rgb(239, 241, 210);
     padding: 10px 0 20px 0;
@@ -259,7 +266,7 @@ img {
 }
 
 .footer-text {
-   font-family: 'Syne Mono', sans-serif;
+   font-family: 'Turret Road', sans-serif;
     font-size: 100%;
     color: rgb(239, 241, 210);
     margin: 0;
@@ -288,7 +295,7 @@ img {
 }
 
 .about-text {
-    font-family: 'Syne Mono', sans-serif;
+    font-family: 'Turret Road', sans-serif;
     color: rgb(239, 241, 210);
      
     padding-top: 50px;
@@ -330,7 +337,7 @@ img {
 }
 
 .about3-text {
-    font-family: 'Syne Mono', sans-serif;
+    font-family: 'Turret Road', sans-serif;
     color: rgb(239, 241, 210);
      
     
@@ -387,7 +394,7 @@ img {
 }
 
 .book-now {
-    font-family: 'Syne Mono', sans-serif;
+    font-family: 'Turret Road', sans-serif;
     color: rgb(239, 241, 210);
     text-shadow: 3px 3px 8px #000; 
     padding-top: 20px;
