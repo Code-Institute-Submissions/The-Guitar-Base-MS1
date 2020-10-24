@@ -65,7 +65,7 @@ body {
 .logo {
     
     height: 800px;
-    width: 900px;
+    width: 950px;
     margin:auto;
     padding-top: 70px;
     padding-bottom: 30px;
@@ -393,6 +393,7 @@ body {
     height: 400px;
     box-shadow: 3px 3px 8px #000;
     margin: 50px auto 20px auto;
+    opacity: 0.8;
    
 }
 
@@ -588,7 +589,7 @@ body {
     .logo {
         position: relative;
         height: 600px;
-        width: 600px;
+        width: 650px;
         margin: 0 auto;
     }
 }
