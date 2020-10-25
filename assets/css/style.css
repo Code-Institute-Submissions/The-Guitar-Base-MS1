@@ -156,7 +156,8 @@ h1, h2 {
 .book-text {
     font-size: 300%;
     font-family: 'Turret Road', sans-serif;
-    padding:20px 0 50px 0;
+    padding:40px 0 20px 0;
+    margin:auto 20px;
     
 }
 
@@ -567,49 +568,35 @@ h1, h2 {
     padding: 0 30px;
 }
 
-.guitar-styles {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-content: center;
-    
-    
+.scroller-slider {
+    display:block;
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
 }
 
-.guitar-style-type ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    
-    
+.scroller-slider::-webkit-scrollbar {
+    display: none;
 }
 
-.guitar-style-type li {
-    text-align: center;
-    display: inline;
-    font-family: 'Turret Road', sans-serif;
-    font-size: 200%;
-    padding:0 10px 0 10px;
-    margin: 0 20px;
-    color: rgb(241, 241, 230);
-    border: solid 4px rgb(241, 241, 230);
-    border-radius: 25px;
-    text-shadow: 3px 3px 8px #000;
-    -webkit-animation-name: spinner;
-    -webkit-animation-timing-function: ease;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 10s;
-
-    animation-name: spinner;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    animation-duration:10s;
-
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+.scroller-container {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
 }
+
+.item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.item span {
+    width: 300px;
+    font-size: 150%;
+}
+
 
 .bg-lessons4-container {
     min-height: 500px;
@@ -635,9 +622,9 @@ h1, h2 {
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.6); 
     color: rgb(241, 241, 230);
-    width: 40%; 
-    height: 50%;
-    padding: 20px;
+    width: 50%; 
+    height: auto;
+    padding: 10px;
     
 }
 
@@ -727,6 +714,9 @@ h1, h2 {
 
     }
 
+    .book-text {
+        padding-top: 50px;
+    }
 }   
 
 @media (min-width: 1024px) {
@@ -737,7 +727,7 @@ h1, h2 {
     }
 
     .book-text {
-        padding-top: 40px;
+        padding: 50px 0 30px 0;
     }
 }
 
