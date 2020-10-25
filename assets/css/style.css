@@ -572,13 +572,17 @@ h1, h2 {
     display:block;
     width: 100%;
     overflow-x: scroll;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin: ;
+    padding-top: 40px;
     box-sizing: border-box;
 }
 
 .scroller-slider::-webkit-scrollbar {
     display: none;
+}
+
+.scroller-slider {
+    -ms-overflow-style: none;
 }
 
 .scroller-container {
@@ -589,12 +593,16 @@ h1, h2 {
 
 .item {
     display: inline-block;
+    
     margin-right: 10px;
 }
 
 .item span {
-    width: 300px;
-    font-size: 150%;
+    width: 200px;
+    font-family: 'Turret Road', sans-serif; 
+    text-align: center;
+    font-size: 250%;
+    border: solid 3px rgb(241, 241, 230);
 }
 
 
