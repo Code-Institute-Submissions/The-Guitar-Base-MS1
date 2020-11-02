@@ -49,16 +49,20 @@ h1, h2 {
 .header-container {
     min-height: 500px;
     max-width: 100%;
-    background: url('../images/header-guitarist.jpg')no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../images/header-guitarist.jpg')no-repeat center center fixed;
     background-size: cover;
     opacity: 0.9;
     
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
     display: flex;
-    align-content: center;
-    justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     position: relative;
 }
@@ -123,11 +127,19 @@ h1, h2 {
     height: 500px;
     width: 100%;
     opacity: 0.9;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 3px 8px #000;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-shadow: 0px 3px 8px #000;
+            box-shadow: 0px 3px 8px #000;
 }
 
 .info-text {
@@ -135,7 +147,9 @@ h1, h2 {
     text-align: center;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     margin: auto;
     text-shadow: 3px 3px 8px #000;
 }
@@ -165,15 +179,17 @@ h1, h2 {
 .info2-container {
     min-height: 500px;
     max-width: 100%;
-    background: url('../images/info2-guitarist.jpg')no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../images/info2-guitarist.jpg')no-repeat center center fixed;
     background-size: cover;
     opacity: 0.9;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-     align-content: center;
-    justify-content: center;
+     -ms-flex-line-pack: center;
+         align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     
     position: relative;
@@ -203,7 +219,8 @@ h1, h2 {
 
 .info3-conatiner {
     max-height: 360px;
-    box-shadow: 0px 5px 8px #000;
+    -webkit-box-shadow: 0px 5px 8px #000;
+            box-shadow: 0px 5px 8px #000;
 }
 
 
@@ -212,17 +229,24 @@ h1, h2 {
 .info4-container {
     min-height: 500px;
     max-width: 100%;
-    background: url('../images/info4-guitarist.jpg')no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../images/info4-guitarist.jpg')no-repeat center center fixed;
     background-size: cover;
     opacity: 0.9;
     
 
+    display: -webkit-box;
+    
+
+    display: -ms-flexbox;
+    
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     position: relative;
 }
@@ -243,7 +267,8 @@ h1, h2 {
 
 .info5-conatiner {
     min-height: 360px;
-    box-shadow: 0px 5px 8px #000;
+    -webkit-box-shadow: 0px 5px 8px #000;
+            box-shadow: 0px 5px 8px #000;
     position: relative;
 }
 
@@ -289,8 +314,6 @@ h1, h2 {
     animation-duration:10s;
 
     -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
@@ -304,17 +327,24 @@ h1, h2 {
 .bg-about-container {
     min-height: 720px;
     max-width: 100%;
-    background: url('../images/about-guitarist.jpg')no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../images/about-guitarist.jpg')no-repeat center center fixed;
     background-size: cover;
     opacity: 0.9;
     
 
+    display: -webkit-box;
+    
+
+    display: -ms-flexbox;
+    
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     position: relative;
 }
@@ -346,17 +376,24 @@ h1, h2 {
 .bg-about3-container {
     min-height: 500px;
     max-width: 100%;
-    background: url('../images/about3-guitarist.jpg')no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../images/about3-guitarist.jpg')no-repeat center center fixed;
     background-size: cover;
     opacity: 0.9;
     
 
+    display: -webkit-box;
+    
+
+    display: -ms-flexbox;
+    
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     position: relative;
 }
@@ -383,7 +420,8 @@ h1, h2 {
 .video {
     width: 700px;
     height: 400px;
-    box-shadow: 3px 3px 8px #000;
+    -webkit-box-shadow: 3px 3px 8px #000;
+            box-shadow: 3px 3px 8px #000;
     margin: 50px auto 20px auto;
     opacity: 0.8;
    
@@ -392,7 +430,8 @@ h1, h2 {
 
 .about4-container {
     min-height: 500px;
-    box-shadow: 0px 5px 8px #000;
+    -webkit-box-shadow: 0px 5px 8px #000;
+            box-shadow: 0px 5px 8px #000;
     position: relative;
 }
 
@@ -402,7 +441,9 @@ h1, h2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     margin: auto;
     text-shadow: 3px 3px 8px #000;
 }
@@ -414,17 +455,24 @@ h1, h2 {
 .bg-lessons-container {
         min-height: 720px;
     max-width: 100%;
-    background: url('../images/lessons-guitarist.jpg')no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../images/lessons-guitarist.jpg')no-repeat center center fixed;
     background-size: cover;
     opacity: 0.9;
     
 
+    display: -webkit-box;
+    
+
+    display: -ms-flexbox;
+    
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     position: relative;
 }
@@ -455,9 +503,15 @@ h1, h2 {
     height: 400px;
     margin: auto;
     padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;   
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;   
 }
 
 .name-display { 
@@ -488,17 +542,24 @@ h1, h2 {
 .bg-lessons2-container {
     min-height: 500px;
     max-width: 100%;
-    background: url('../images/lessons1-bg-guitarist.jpg')no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../images/lessons1-bg-guitarist.jpg')no-repeat center center fixed;
     background-size: cover;
     opacity: 0.9;
     
 
+    display: -webkit-box;
+    
+
+    display: -ms-flexbox;
+    
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     position: relative;
 }
@@ -524,17 +585,24 @@ h1, h2 {
 .bg-lessons3-container {
     min-height: 500px;
     max-width: 100%;
-    background: url('../images/lessons2-bg-guitarist.jpg')no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../images/lessons2-bg-guitarist.jpg')no-repeat center center fixed;
     background-size: cover;
     opacity: 0.9;
     
 
+    display: -webkit-box;
+    
+
+    display: -ms-flexbox;
+    
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     position: relative;
 }
@@ -557,8 +625,12 @@ h1, h2 {
 
 .guitar-style-type {
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .style-list {
@@ -585,8 +657,6 @@ h1, h2 {
     animation-duration:10s;
 
     -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
     
 }
@@ -595,17 +665,24 @@ h1, h2 {
 .bg-lessons4-container {
     min-height: 500px;
      max-width: 100%;
-    background: url('../images/lessons3-bg-guitarist.jpg')no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../images/lessons3-bg-guitarist.jpg')no-repeat center center fixed;
     background-size: cover;
     opacity: 0.9;
     
 
+    display: -webkit-box;
+    
+
+    display: -ms-flexbox;
+    
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     position: relative;
 }
@@ -771,13 +848,13 @@ h1, h2 {
   
   @keyframes spinner {
     from {
-      -moz-transform: rotateY(0deg);
       -ms-transform: rotateY(0deg);
-      transform: rotateY(0deg);
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg);
     }
     to {
-      -moz-transform: rotateY(-360deg);
       -ms-transform: rotateY(-360deg);
-      transform: rotateY(-360deg);
+      -webkit-transform: rotateY(-360deg);
+              transform: rotateY(-360deg);
     }
   }
