@@ -18,4 +18,6 @@ by filling in the booking form which all the links will guide them too.
  5. As a user I want to easily navigate to where i can make a booking.
  6. As a user I want to feel happy about starting my guitar journey.
 
+ [Mobile First Design](documentation/wireframes/mobile-first-design.png)
+
  
