@@ -54,7 +54,7 @@ h1, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     
     display: flex;
     align-content: center;
@@ -170,7 +170,7 @@ h1, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     display: flex;
      align-content: center;
     justify-content: center;
@@ -217,7 +217,7 @@ h1, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     
 
     display: flex;
@@ -309,7 +309,7 @@ h1, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     
 
     display: flex;
@@ -351,7 +351,7 @@ h1, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     
 
     display: flex;
@@ -419,7 +419,7 @@ h1, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     
 
     display: flex;
@@ -493,7 +493,7 @@ h1, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     
 
     display: flex;
@@ -529,7 +529,7 @@ h1, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     
 
     display: flex;
@@ -562,14 +562,14 @@ h1, h2 {
 }
 
 .style-list {
- 
+    padding: 0;
     font-family: 'Turret Road', sans-serif; 
     
 
 }
 
 .style-list-item {
-    display: inline-block;
+    display: block;
     padding: 3px 35px;
     
     font-size: 250%;
@@ -600,7 +600,7 @@ h1, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     
 
     display: flex;
@@ -658,7 +658,7 @@ h1, h2 {
     }
 
     .style-list-item {
-        font-size: 150%;
+        font-size: 200%;
         padding: 0 30px;
     }
 }
@@ -670,7 +670,8 @@ h1, h2 {
         font-size: 80%;
     }
     .book-text {
-        padding-bottom: 20px;
+        padding-bottom: 15px;
+        padding-top: 20px;
     }
     .about-para, .para2-text {
         width: 90%;
@@ -710,13 +711,13 @@ h1, h2 {
 
     .style-list-item {
        
-        font-size: 80%;
+        font-size: 150%;
         
         
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .header-container, .info4-container, .info2-container,
     .bg-about-container, .bg-about3-container, .bg-lessons-container,
     .bg-lessons2-container, .bg-lessons3-container, .bg-lessons4-container  {
@@ -724,12 +725,16 @@ h1, h2 {
 
     }
 
-    .book-text {
-        padding-top: 50px;
+    .style-list-item {
+       
+        font-size: 150%;
+        
+        
     }
+    
 }   
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .pic1, .header-container, .info4-container, .info2-container,
     .bg-about-container, .bg-about3-container, .bg-lessons-container,
     .bg-lessons2-container, .bg-lessons3-container, .bg-lessons4-container {
@@ -737,7 +742,11 @@ h1, h2 {
     }
 
     .book-text {
-        padding: 50px 0 30px 0;
+        padding: 80px 0 60px 0;
+    }
+
+    .style-list-item {
+        display: inline-block;
     }
 }
 
