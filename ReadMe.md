@@ -1,4 +1,4 @@
-[The Guitar Base](assets/images/logo4.png)
+![The Guitar Base](assets/images/logo4.png)
 
 # The Guitar Base
 
@@ -33,6 +33,8 @@
 
 ## Features 
 
+![The Guitar Base Responsive Design](assets/images/the-guitar-base-responsive.png)
+
 #### Mobile First Design 
 
  - Expandable menu with header as link
@@ -64,14 +66,14 @@
  - Various pictures of people playing guitars 
  - Footer with rotating social links 
 
-#### Lseeons Page 
+#### Lessons Page 
 
  - Header with links to all pages and lesson select that links to booking 
    form on lesson page
+ - Form to fill in info to contact site  
  - Hero image with booking form that all links lead to 
  - 3 sets of 2 pictures of guitar players each representing lesson type
  - Styles of lessons rotating 
  - Booking buttons for each lesson type
  - Footer with rotating social links 
 
- 
