@@ -19,10 +19,15 @@
  6. As a user I want to feel happy about starting my guitar journey.
 
  [Mobile First Design](documentation/wireframes/mobile-first-design.png)
+
  [Home Page](documentation/wireframes/home-page.png)
+
  [About Page](documentation/wireframes/about-page.png)
+
  [Lessons Page](documentation/wireframes/lessons-page.png)
+
  [Successfull Booking Page](documentation/wireframes/successful-booking-page.png)
+
 
  ### Colours and Typography:
     
