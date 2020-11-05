@@ -22,6 +22,7 @@
  [Home Page](documentation/wireframes/home-page.png)
  [About Page](documentation/wireframes/about-page.png)
  [Lessons Page](documentation/wireframes/lessons-page.png)
+ [Successfull Booking Page](documentation/wireframes/successful-booking-page.png)
 
  ### Colours and Typography:
     
