@@ -83,3 +83,25 @@
  - Booking buttons for each lesson type
  - Footer with rotating social links 
 
+ #### Successful Booking Page
+
+  - Header with links to all pages
+  - hero image
+  - text to confirm booking
+  - Button to return to home screen
+
+#### Existing Features 
+
+ - Header and custom logo
+ - Navagation bar
+ - Parallax scrolling
+ - Footer with rotating social links
+ - Video link to youtube
+ - Home page
+ - About page
+ - Lessons page
+ - Successful bookig page
+
+ #### Future features i want add
+ 
+
