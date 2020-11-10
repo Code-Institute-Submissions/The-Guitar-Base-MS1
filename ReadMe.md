@@ -100,8 +100,50 @@
  - Home page
  - About page
  - Lessons page
- - Successful bookig page
+ - Successful booking page with return to home button
 
  #### Future features i want add
  
+ - One on one live video tutorials
+ - Live Q & A
+ - Downloadable backing tracks to jam to
+ - Videos of students making propress
 
+ ## Technologies used
+
+ - HTML5
+ - CSS
+ - Github and Gitpod
+ - Bootstrap 4
+ - Js ans Jquery cdn with Bootstrap
+ - Googlefonts
+ - Font Awesome
+ - Youtube
+
+## Testing
+
+Testing documentation can be found [Here](documentation/Testing.md)
+
+## Deployment 
+
+- The published site can be found on gitpages [The Guitar Base](https://slidytights.github.io/The-Guitar-Base-MS1/)
+- All code was written on Git Hub
+- I then pushed the code to Github [Repository](https://github.com/Slidytights/The-Guitar-Base-MS1)
+- In the settings i selected master to get my published site address
+- The code can be run locally or downloaded from the Repository page
+
+## Credits
+
+ - Navbar and drop down menu from Whiskey drop project and Bootstrap
+ - Help with ideas on how to code certain things i got from Stack Overflow and W3 Schools
+ - Youtube for Videos
+ - all pictures are from UnSplash.com
+ - All icons are from Font Awesome
+ - All fonts are from Google Fonts
+ - Custom Logo from friend Steven Mawhinney
+
+ ## Acknowledgements
+
+  - My mentor Narender Singh for his guidance and Help
+  - CI staff and Slack community for being there to answer any questions or help me if i was stuck
+  - Jim Morel from slack for looking over my site as a third party for constructive critisim
