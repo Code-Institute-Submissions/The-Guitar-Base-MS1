@@ -3,10 +3,10 @@
  - [HTML Validator](https://validator.w3.org/) was used to test all html files
  - any errors or warnings have been fixed and corrected throughout the coding process
 
- - [Index.html validator pass](documentation/validation-pdf/index-page-validation.pdf)
- - [About.html validator pass](documentation/validation-pdf/about-page-validation.pdf)
- - [Lessons.html validator pass](documentation/validation-pdf/lessons-page-validation.pdf)
- - [Successful Booking validator pass](documentation/validation-pdf/successful-booking-page-validation.pdf)
+ - [Index.html validator pass](https://github.com/Slidytights/The-Guitar-Base-MS1/blob/master/documentation/validation-pdf/index-page-validation.pdf)
+ - [About.html validator pass](https://github.com/Slidytights/The-Guitar-Base-MS1/blob/master/documentation/validation-pdf/about-page-validation.pdf)
+ - [Lessons.html validator pass](https://github.com/Slidytights/The-Guitar-Base-MS1/blob/master/documentation/validation-pdf/lessons-page-validation.pdf)
+ - [Successful Booking validator pass](https://github.com/Slidytights/The-Guitar-Base-MS1/blob/master/documentation/validation-pdf/successful-booking-page-validation.pdf)
 
  ## CSS 
 
@@ -14,7 +14,7 @@
 
   - Css was run through an Autoprefixer to help code work on all platforms
 
-  - [CSS validator pass](documentation/validation-pfd/css-validation.pfd)
+  - [CSS validator pass](https://github.com/Slidytights/The-Guitar-Base-MS1/blob/master/documentation/validation-pdf/css-validation.pdf)
 
 ## Live Site Testing
 
